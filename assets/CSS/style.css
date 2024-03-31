@@ -46,3 +46,10 @@ body {
 .text-color2{
     font-variant: var(--text-color);
 }
+
+.nav-links{
+    margin-left: -100%;
+}
+.mobile-menu{
+    margin-left: 0;
+}
