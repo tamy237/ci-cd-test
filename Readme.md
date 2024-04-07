@@ -4,5 +4,3 @@
 ## Technologies used 
   1.HTML
   2.TAILWIND CSS
-  
-# Markdown
