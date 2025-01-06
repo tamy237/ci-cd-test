@@ -32,7 +32,7 @@ body {
     background: var(--secondary-color);
 }
 .bg-gradient{
-    background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+    background: linear-gradient(100.23deg, #2E2E2E 42.36%, #000000 98.65%);
 }
 .bg-gradient2{
     background: var(--other-color);
