@@ -16,5 +16,5 @@ HTML and TailwindCSS
 ![App Screenshot](assets/Img/mobile_home.svg)
 
 ## Authors
-- [@Briso10-dev](https://github.com/Briso10-dev)
-- [@Briso10-dev](https://github.com/haruna-rashid-yakubu)
+- [@Kouam Brice](https://github.com/Briso10-dev)
+- [@Mr Haruna Rashid](https://github.com/haruna-rashid-yakubu)
