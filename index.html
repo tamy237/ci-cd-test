@@ -13,6 +13,7 @@
 
 <body>
     <header class="flex flex-col gap-[2rem] w-full">
+        <!-- Nav bar for mobile -->
         <nav class="flex items-center gap-[10rem] mt-[1.5rem] ml-[6rem]">
             <div><img src="/assets/Img/Logo.svg" alt="logo" class="lg:hidden"></div>
             <img src="/assets/Img/iphone.svg" alt="iphone" class="lg:w-[21rem] lg:h-[6rem] hidden lg:block">
@@ -20,15 +21,23 @@
                 <img src="assets/Img/Search.svg" alt="recherche" class="lg:w-[2.4rem] lg:l-[2.4rem]">
                 <input type="search" placeholder="Search" class="w-[30rem] outline-none p-2">
             </div>
-            <ul
-                class="nav_links hidden lg:flex lg:gap-[7.6rem] lg:justify-center lg:text-[1.6rem] lg:leading-[1.9rem] w-full">
-                <li class="font-bold">Home</li>
-                <li class="font-normal text-gray-400">About</li>
-                <li class="font-normal text-gray-400">Contact us</li>
-                <li class="font-normal text-gray-400">Blog</li>
+            <ul id="nav_desktop"
+                class="hidden lg:flex lg:gap-[7.6rem] lg:justify-center lg:text-[1.6rem] w-full font-normal text-gray-400">
+                <a href="#" class="font-bold">
+                    <li>Home</li>
+                </a>
+                <a href="#" class="font-bold">
+                    <li>About</li>
+                </a>
+                <a href="#" class="font-bold">
+                    <li>Contact us</li>
+                </a>
+                <a href="#" class="font-bold">
+                    <li> Blog</li>
+                </a>
             </ul>
             <img src="assets/Img/Icons.svg" alt="icons" class="hidden lg:block mr-[11rem]">
-            <button class="menu">
+            <button id="burger" class="menu">
                 <span class="inline-block lg:hidden material-symbols-outlined ml-[60rem]">menu</span>
             </button>
         </nav>
@@ -36,35 +45,61 @@
             class="hidden lg:w-full lg:h-[5rem] lg:bg-[#2C2C2C] lg:flex lg:gap-[7rem] lg:items-center lg:font-normal lg:text-[1.4rem] lg:text-gray-400 lg:leading-[3.2rem]">
             <div class="flex gap-[1rem] ml-[12.8rem]">
                 <img src="assets/Img/Phones1.svg" alt="telephone">
-                <h3>Phones</h3>
+                <a href="#">
+                    <h3>Phones</h3>
+                </a>
             </div>
             <img src="assets/Img/Devider.svg" alt="diviseur">
             <div class="flex gap-[1rem] ">
                 <img src="assets/Img/Computers1.svg" alt="Computers">
-                <h3>Computers</h3>
+                <a href="#">
+                    <h3>Computers</h3>
+                </a>
             </div>
             <img src="assets/Img/Devider.svg" alt="diviseur">
             <div class="flex gap-[1rem] ">
                 <img src="assets/Img/Gaming1.svg" alt="Smart washes">
-                <h3>Smart Watches</h3>
+                <a href="#">
+                    <h3>Smart Watches</h3>
+                </a>
             </div>
             <img src="assets/Img/Devider.svg" alt="diviseur">
             <div class="flex gap-[1rem] ">
                 <img src="assets/Img/Cameras1.svg" alt="Cameras">
-                <h3>Cameras</h3>
+                <a href="#">
+                    <h3>Cameras</h3>
+                </a>
             </div>
             <img src="assets/Img/Devider.svg" alt="diviseur">
             <div class="flex gap-[1rem] ">
                 <img src="assets/Img/Headphones1.svg" alt="Headphones">
-                <h3>Headphones</h3>
+                <a href="#">
+                    <h3>Headphones</h3>
+                </a>
             </div>
             <img src="assets/Img/Devider.svg" alt="diviseur">
             <div class="flex gap-[1rem] ">
                 <img src="assets/Img/Gaming1.svg" alt="Gaming">
-                <h3>Gaming</h3>
+                <a href="#">
+                    <h3>Gaming </h3>
+                </a>
             </div>
         </nav>
     </header>
+
+    <!-- Nav bar for mobile -->
+    <nav id="mobile-nav" class="hidden lg:hidden bg-white shadow-lg text-[4rem] text-gray-400"">
+        <ul class="font-normal>
+        <li><a href="#" class="font-bold"></a>Home</li>
+        <li><a href="#""></a>About</li>
+                <li><a href=" #"></a>Contact us</li>
+        <li><a href="#"></a>Blog</li>
+        </ul>
+        <a href="#" class=""><button id="close"
+                class=" font-bold w-[15rem] h-[4rem] border-[0.1rem] border-gray-400 rounded-[0.6rem] text-black text-[1.6rem] text-center">Close</button></a>
+
+    </nav>
+
     <section
         class="flex flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[25rem] mt-[3rem] lg:mt-[0rem] lg:w-full bg-gradient">
         <div
@@ -483,18 +518,22 @@
             </div>
         </div>
     </section>
-    <section class="bg-gradient flex flex-col justify-center gap-[5rem] h-[50vh] mt-[8rem] lg:flex-row lg:justify-between lg:items-center lg:h-[40vh]">
+    <section
+        class="bg-gradient flex flex-col justify-center gap-[5rem] h-[50vh] mt-[8rem] lg:flex-row lg:justify-between lg:items-center lg:h-[40vh]">
         <div class="flex justify-between items-center w-full lg:flex-1">
-            <div class="p-2 lg:p-0 lg:hidden"><img src="assets/Img/font-fleur.svg" alt="Fond ecran fleurir" class=" h-[17rem]"></div>
+            <div class="p-2 lg:p-0 lg:hidden"><img src="assets/Img/font-fleur.svg" alt="Fond ecran fleurir"
+                    class=" h-[17rem]"></div>
             <div class="relative pr-[14rem] ml-[9rem] lg:pr-0 lg:ml-0 lg:w-full">
-                <div class="hidden lg:block lg:p-0 p-2 lg:absolute lg:left-[17rem] bottom-[2rem]"><img src="assets/Img/ipad1.svg" alt="Fond ecran fleurir"
-                        class="h-[17rem] lg:w-[25rem] lg:h-[15rem]"></div>
+                <div class="hidden lg:block lg:p-0 p-2 lg:absolute lg:left-[17rem] bottom-[2rem]"><img
+                        src="assets/Img/ipad1.svg" alt="Fond ecran fleurir" class="h-[17rem] lg:w-[25rem] lg:h-[15rem]">
+                </div>
                 <div class="mt-[2rem] lg:hidden">
                     <img src="assets/Img/iphone-couvertue.svg" alt="Iphone couvert" class="h-[15rem] w-[43.4rem]">
                 </div>
-                <div class="hidden mt-[2rem] ml-[1rem] lg:block lg:mt-0 lg:ml-0 lg:absolute lg:left-[2rem] bottom-[1rem]"><img
-                        src="assets/Img/ipad2.svg" alt="Iphone couvert"
-                        class=" h-[15rem] lg:h-full lg:w-[20rem] "></div>
+                <div
+                    class="hidden mt-[2rem] ml-[1rem] lg:block lg:mt-0 lg:ml-0 lg:absolute lg:left-[2rem] bottom-[1rem]">
+                    <img src="assets/Img/ipad2.svg" alt="Iphone couvert" class=" h-[15rem] lg:h-full lg:w-[20rem] ">
+                </div>
                 <div class="absolute top-[0.1rem] left-[32rem] lg:top-0 lg:left-0 lg:hidden"><img
                         src="assets/Img/image9.svg" alt="Iphone couvert" class=" h-[23rem] lg:h-full"></div>
                 <div class="hidden lg:block lg:absolute"><img src="assets/Img/ipad3.svg" alt="Iphone"

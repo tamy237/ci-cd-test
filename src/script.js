@@ -1,10 +1,14 @@
-// recuperation du hamberger-menu
-const menu = document.querySelector(".menu")
+// Select elements
+const burger = document.getElementById("burger");
+const mobileNav = document.getElementById("mobile-nav");
+const close = document.getElementById("close");
 
-// recuperation de la navlinks
-const navlinks = document.querySelector(".nav_links")
-
-// ajout d'un evenement qui fera apparaitre et disparaitre le menu
-menu.addEventListener("click", ()=>{
-    navlinks.classList.toggle("mobile-menu")
-})
+// Toggle mobile menu visibility
+burger.addEventListener("click", () => {
+    mobileNav.classList.remove("hidden");
+  });
+  
+  close.addEventListener("click", () => {
+    mobileNav.classList.add("hidden");
+  })
+ 
