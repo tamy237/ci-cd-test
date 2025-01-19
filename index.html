@@ -15,7 +15,7 @@
     <header class="flex flex-col gap-[2rem] w-full">
         <!-- Nav bar for mobile -->
         <nav class="flex items-center gap-[10rem] mt-[1.5rem] ml-[6rem]">
-            <div><img src="/assets/Img/Logo.svg" alt="logo" class="lg:hidden"></div>
+            <div><img src="/assets/Img/Logo.svg" alt="logo" class="lg:hidden w-[20rem] "></div>
             <img src="/assets/Img/iphone.svg" alt="iphone" class="lg:w-[21rem] lg:h-[6rem] hidden lg:block">
             <div class="hidden lg:flex lg:border-gray-400 lg:border-[0.5rem] lg:w-[30rem] lg:h-[5rem]">
                 <img src="assets/Img/Search.svg" alt="recherche" class="lg:w-[2.4rem] lg:l-[2.4rem]">
@@ -37,8 +37,8 @@
                 </a>
             </ul>
             <img src="assets/Img/Icons.svg" alt="icons" class="hidden lg:block mr-[11rem]">
-            <button id="burger" class="menu">
-                <span class="inline-block lg:hidden material-symbols-outlined ml-[60rem]">menu</span>
+            <button id="burger" class="menu w-[20rem]">
+                <span class="inline-block lg:hidden material-symbols-outlined ml-[50rem]">menu</span>
             </button>
         </nav>
         <nav
@@ -87,18 +87,18 @@
         </nav>
     </header>
 
-    <!-- Nav bar for mobile -->
-    <nav id="mobile-nav" class="hidden lg:hidden bg-white shadow-lg text-[4rem] text-gray-400"">
-        <ul class="font-normal>
-        <li><a href="#" class="font-bold"></a>Home</li>
-        <li><a href="#""></a>About</li>
-                <li><a href=" #"></a>Contact us</li>
-        <li><a href="#"></a>Blog</li>
-        </ul>
-        <a href="#" class=""><button id="close"
-                class=" font-bold w-[15rem] h-[4rem] border-[0.1rem] border-gray-400 rounded-[0.6rem] text-black text-[1.6rem] text-center">Close</button></a>
-
-    </nav>
+   <!-- Mobile Nav Bar -->
+<nav id="mobile-nav" class="hidden lg:hidden bg-gradient text-[3rem]  text-white shadow-lg fixed top-0 left-0 h-full w-[26%]  z-20 mt-[11rem] transform -translate-x-full transition-transform duration-300">
+    <ul class="flex flex-col justify-center gap-6 font-medium px-8 pt-[5rem]">
+      <li><a href="#" class="hover:text-gray-400 transition">Home</a></li>
+      <li><a href="#" class="hover:text-gray-400 transition">About</a></li>
+      <li><a href="#" class="hover:text-gray-400 transition">Contact Us</a></li>
+      <li><a href="#" class="hover:text-gray-400 transition">Blog</a></li>
+    </ul>
+    <button id="close" class="font-bold w-[12rem] h-[4rem] border-[0.1rem] border-gray-400 text-gray-400 hover:bg-gray-300 transition rounded-md text-[2rem] text-center ml-8 mt-[3rem]">
+      Close
+    </button>
+  </nav>
 
     <section
         class="flex flex-col items-center justify-center gap-[2rem] lg:flex-row lg:gap-[25rem] mt-[3rem] lg:mt-[0rem] lg:w-full bg-gradient">
