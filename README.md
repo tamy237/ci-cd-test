@@ -62,7 +62,7 @@ Ecommerce-website/
 
 ## 👥 Authors
 
-- [@Kouam Brice](https://github.com/Briso10-dev) - Frontend Development
+- [@Briso-dev](https://github.com/Briso10-dev) - Frontend Development
 
 ## 📄 License
 
